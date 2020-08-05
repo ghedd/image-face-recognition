@@ -1,0 +1,15 @@
+@import "bulma/bulma";
+.DetectionBox.card {
+  border-radius: 2px;
+}
+.DetectionBox {
+  &__Input.is-primary {
+    width: 70vw;
+    max-width: 750px;
+    border-color: #30c1c8;
+  }
+  &__DetectBtn.is-primary {
+    background-color: #32186f;
+    // color: #f0eaea;
+  }
+}

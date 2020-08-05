@@ -1,0 +1,23 @@
+.Container {
+  display: grid;
+  grid: minmax(auto, 20vh) 1fr minmax(auto, 19vh) / 1fr;
+
+  /* header {
+    background-color: rgba(153, 205, 50, 0.747);
+  } */
+
+  main {
+    // background-color: rgba(128, 0, 128, 0.781);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: auto;
+  }
+
+  footer {
+    // background-color: rgba(255, 0, 0, 0.644);
+    padding: 1rem;
+    margin-top: auto;
+  }
+}

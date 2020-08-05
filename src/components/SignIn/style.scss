@@ -1,0 +1,23 @@
+@import "bulma/bulma";
+
+.SignIn.card {
+  border-radius: 2px;
+}
+
+.SignIn.card .title,
+.SignIn.card .content {
+  padding: 1.5rem 0;
+  margin: 0;
+}
+
+.SignIn {
+  &__Input.input.is-primary {
+    width: 70vw;
+    max-width: 450px;
+    border-color: #30c1c8;
+  }
+  .SignInBtn.is-primary {
+    background-color: #32186f;
+    // color: #f0eaea;
+  }
+}

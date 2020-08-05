@@ -1,0 +1,26 @@
+.notification {
+  max-width: 400px;
+  width: 70vw;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  opacity: 0;
+  animation: pop-down 3s cubic-bezier(0, 1.2, 0.33, 0.98) forwards;
+  transition: all 0.1s ease-out;
+  @media only screen and (max-width: 768px) {
+    top: 18%;
+  }
+}
+@keyframes pop-down {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  50% {
+    top: 10%;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.FaceRecognition {
+  // min-width: 50vw;
+  max-width: 500px;
+  // min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &__Box.show {
+    position: absolute;
+    display: flex;
+
+    box-shadow: 0 0 0 3px #30c1c8 inset;
+  }
+}
